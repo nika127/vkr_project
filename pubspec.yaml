@@ -1,0 +1,22 @@
+name: arbat_gold_premium
+version: 0.1.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_riverpod: ^2.4.0
+  firebase_core: ^2.32.0
+  firebase_auth: ^5.2.0
+  cloud_firestore: ^5.4.0
+  firebase_storage: ^12.3.0
+  firebase_messaging: ^15.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
